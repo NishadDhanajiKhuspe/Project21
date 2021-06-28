@@ -35,6 +35,7 @@ ball.bounceOff(edges);
 
   if(block1.isTouching(ball)){
     ball.shapeColor = "blue";
+    music.play();
   }
   if(block2.isTouching(ball)){
     ball.shapeColor = "yellow";
